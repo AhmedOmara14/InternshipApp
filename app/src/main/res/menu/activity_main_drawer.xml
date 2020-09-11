@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<group android:checkableBehavior="single" android:id="@+id/grp1">
+    <item android:checkableBehavior="single"
+        android:icon="@drawable/ic_baseline_local_phone_24"
+        android:title="+91 9855456646" />
+</group>
+
+    <group android:checkableBehavior="single" android:id="@+id/gr2">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+            android:title="My Wallet" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_border_vertical_24"
+            android:title="My Orders" />
+        <item
+            android:icon="@drawable/ic_baseline_local_offer_24"
+            android:title="Offers" />
+
+        <item
+            android:icon="@drawable/refer"
+            android:title="Refer" />
+        <item
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+        <item
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="About Us" />
+
+        <item
+            android:icon="@drawable/ic_baseline_star_border_24"
+            android:title="Rate Us" />
+        <item
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share" />
+
+    </group>
+
+</menu>

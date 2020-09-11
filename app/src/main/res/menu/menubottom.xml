@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/homeFragmentnav"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="" />
+
+        <item android:id="@+id/cartFragmentnav"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:title="" />
+        <item android:id="@+id/saveFavFragmentnav"
+            android:icon="@drawable/savefav"
+            android:title="" />
+        <item android:id="@+id/profileFragmentnav"
+            android:icon="@drawable/user"
+            android:title="" />
+
+    </group>
+
+
+</menu>
